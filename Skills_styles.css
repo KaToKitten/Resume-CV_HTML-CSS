@@ -1,0 +1,158 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(#151515,black);
+}
+
+.banner {
+    width: 800px;
+    margin: 25px auto;
+}   
+
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #f07900;
+}
+
+.navbar a.active {
+    color: #f8a145;
+    border-bottom: 2px solid #f8a145;
+}
+
+.welpage {
+    width: 800px;
+    margin: 25px auto;
+}
+
+.title {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 50px;
+    font-family: 'Dela Gothic One';
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    color: #f8a145;
+}
+
+.lewrap {
+    height: 470px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #d35100;
+    border-radius: 20px;
+    float: left;
+}
+
+.list1 {
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Varela Round';
+    text-align: justify;
+    text-justify: inherit;
+    color: white;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.li1:before {
+    content: "";
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-size: 30px;
+    background-image: url('./images/icon_cat_or.png');
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+.PElist {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.Pr {
+    min-width: 696;
+    list-style: none;
+    padding: 10px;
+}
+
+.Pr li {
+    display: inline;
+    padding: 0 15px;
+    margin: 0 5px;
+    border-radius: 30px;
+    background: #f07900;
+    color: black;
+}
+
+.Ed {
+    min-width: 696;
+    list-style: none;
+    padding: 10px;
+}
+
+.Ed li {
+    display: inline;
+    padding: 0 15px;
+    margin: 0 5px;
+    border-radius: 30px;
+    background: #f07900;
+    color: black;
+}
+
+.logocat {
+    height: 100px;
+    width: 200px;
+    float: right;
+    padding-right: 10px;
+}
+
+.social {
+    width: 800px;
+    margin: 25px auto;
+    
+}
+
+.navlow {
+    text-align: center;
+}
+
+.navlow a {
+    height: 100px;
+    padding: 0 8px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navlow a:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+.icons {
+    height: 30px;
+    width: 30px;
+    padding-top: 20px;
+}
+
+
+

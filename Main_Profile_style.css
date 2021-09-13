@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(#151515,black);
+}
+
+.banner {
+    width: 800px;
+    margin: 25px auto;
+}   
+
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #f07900;
+}
+
+.navbar a.active {
+    color: #f8a145;
+    border-bottom: 2px solid #f8a145;
+}
+
+.welpage {
+    width: 800px;
+    margin: 25px auto;
+}
+
+.wp_left {
+    height: 470px;
+    float: left;
+    width: 49%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-left: 8px solid #d35100;
+    border-top: 8px solid #d35100;
+    border-bottom: 8px solid #d35100;
+}
+
+.title {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 50px;
+    font-family: 'Dela Gothic One';
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 40px;
+    color: #f8a145;
+}
+
+.p1 {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 30px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 230px;
+    font-size: 20px;
+    font-family: 'Varela Round';
+    text-align: justify;
+    text-justify: inherit;
+    color: white;
+}
+
+.wp_right {
+    float: right;
+    height: 470px;
+    width: 49%;
+    border-right: 8px solid #d35100;
+    border-top: 8px solid #d35100;
+    border-bottom: 8px solid #d35100;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+}
+
+.pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #f8a145;
+    border-width: 5px;
+}
+
+.h1_a {
+    background: -webkit-linear-gradient(#f8a145,#d35100);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Courgette';
+    padding-right: 25px;
+}
+
+.social {
+    width: 800px;
+    margin: 25px auto;
+    padding-top: 10%;
+}
+
+.navlow {
+    text-align: center;
+}
+
+.navlow a {
+    height: 100px;
+    padding: 0 8px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navlow a:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+.icons {
+    height: 30px;
+    width: 30px;
+    padding-top: 20px;
+}
+
+
+
